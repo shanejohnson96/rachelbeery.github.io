@@ -50,7 +50,7 @@
     <div id="map"></div>
 
     <script>
-      var osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+      var osmUrl = 'https://api.mapbox.com/styles/v1/anenna9817/cjf01362h2u9z2rqpdidur1hr/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYW5lbm5hOTgxNyIsImEiOiJjamNpNHQzNHMyZjBjMnFuem01dHlpemdzIn0.D7J-gIDElbyHc3sP_WL9PQ';
       var osmAttrib = '&copy; <a href="http://openstreetmap.org/copyright">' +
         'OpenStreetMap</a> contributors';
       var osm = L.tileLayer(osmUrl, {
