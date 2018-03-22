@@ -16,7 +16,7 @@
   { "type":"Feature","properties":{"percent":CHANGE,"place": "CHANGE","start":1104537600,"end":1136073599},"geometry":{"type":"Point","coordinates":[CHANGE] }},
   { "type":"Feature","properties":{"percent":CHANGE,"place": "CHANGE","start":1136073600,"end":1167609599},"geometry":{"type":"Point","coordinates":[CHANGE] }},
   { "type":"Feature","properties":{"percent":CHANGE,"place": "CHANGE","start":1167609600,"end":1199145599},"geometry":{"type":"Point","coordinates":[CHANGE] }},
-  { "type":"Feature","properties":{"percent":CHANGE,"place": "CHANGE","start":1199145600,"end":1230767999},"geometry":{"type":"Point","coordinates":[CHANGE6] }},
+  { "type":"Feature","properties":{"percent":CHANGE,"place": "CHANGE","start":1199145600,"end":1230767999},"geometry":{"type":"Point","coordinates":[CHANGE] }},
   { "type":"Feature","properties":{"percent":CHANGE,"place": "CHANGE","start":1230768000,"end":1262303999},"geometry":{"type":"Point","coordinates":[CHANGE] }},
   { "type":"Feature","properties":{"percent":CHANGE,"place": "CHANGE","start":1262304000,"end":1293839999},"geometry":{"type":"Point","coordinates":[CHANGE] }},
   { "type":"Feature","properties":{"percent":CHANGE,"place": "CHANGE","start":1293840000,"end":1325375999},"geometry":{"type":"Point","coordinates":[CHANGE] }},
