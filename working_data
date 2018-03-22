@@ -1,8 +1,9 @@
-{"type":"Feature","properties":{"mag":% IN FILE IN GITHUB - ONE YEAR AT A TIME,"place":"country name","time":beg of year,"updated":end of year},"geometry":{"type":"Polygon","coordinates":[COPY FROM BORDERS OF COUNTRIES FILE]},"id":"ci37897855"},
+{"type":"FeatureCollection",
+"features":
 [
-  { "type":"Feature","properties":{"mag":2.067824648,"place": "Afghanistan","time":631152000,"updated":662687999}"geometry":{"type":"Polygon","coordinates":[33, 66] },
-  { "type":"Feature","properties":{"mag":2.067824648,"place": "Afghanistan","time":662688000,"updated":694223999}"geometry":{"type":"Polygon","coordinates":[33, 66] },
-  { "type":"Feature","properties":{"mag":2.067824648,"place": "Afghanistan","time":694224000,"updated":725846399}"geometry":{"type":"Polygon","coordinates":[33, 66] },
+  { "type":"Feature","properties":{"mag":2.067824648,"place": "Afghanistan","time":631152000,"updated":662687999}"geometry":{"type":"Point","coordinates":[33, 66] },
+  { "type":"Feature","properties":{"mag":2.067824648,"place": "Afghanistan","time":662688000,"updated":694223999}"geometry":{"type":"Point","coordinates":[33, 66] },
+  { "type":"Feature","properties":{"mag":2.067824648,"place": "Afghanistan","time":694224000,"updated":725846399}"geometry":{"type":"Point","coordinates":[33, 66] },
   { "type":"Feature","properties":{"mag":2.067824648,"place": "Afghanistan","time":725846400,"updated":757382399}"geometry":{"type":"Polygon","coordinates":[33, 66] },
   { "type":"Feature","properties":{"mag":2.067824648,"place": "Afghanistan","time":757382400,"updated":788918399}"geometry":{"type":"Polygon","coordinates":[33, 66] },
   { "type":"Feature","properties":{"mag":2.067824648,"place": "Afghanistan","time":788918400,"updated":820454399}"geometry":{"type":"Polygon","coordinates":[33, 66] },
