@@ -111,7 +111,7 @@
               radius: data.properties.percent,
               color: "hsl("+hue+", 100%, 50%)",
               fillColor: "hsl("+hue+", 100%, 50%)"
-            }).bindPopup('<a href="'+data.properties.url+'">click for more info</a>');
+            }).bindPopup('<d1><dt>Country: </dt>' + data.properties.place + '<dt>Percent of land covered by trees: </dt>' + data.properties.percent); //('<a href="'+data.properties.url+'">click for more info</a>');
           }
         });
         timelineControl.addTo(map);
