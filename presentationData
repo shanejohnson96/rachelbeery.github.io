@@ -85,7 +85,7 @@
         var getInterval = function (forest) {
             return {
               start: Date.parse(forest.properties.start),
-              end: forest.properties.end
+              end: Date.parse(forest.properties.end)
             };
           };
           var timelineControl = L.timelineSliderControl({
@@ -94,15 +94,17 @@
               return new Date(date).toString();
             }
           });
+     var timelineControl = L.timelineSliderControl({
+          formatOutput: function(date) {
+              
+            return new Date(date).toString();
+          }
+        });
         var timeline = L.timeline(data, {
           getInterval: getInterval,
           // lat long of center of each country
           pointToLayer: function(data, latlng){
-              //make all the cirlces one color to being with
-              //if the percent of forest goes down the circle will turn red and get darker
-              //will turn green and darker if gets better
-              //will stay orginal color with no change
-            var hue_min = 30;
+            var hue_min = 120;
             var hue_max = 0;
             var hue = data.properties.percent / 10 * (hue_max - hue_min) + hue_min;
             return L.circleMarker(latlng, {
